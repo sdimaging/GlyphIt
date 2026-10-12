@@ -1,0 +1,12 @@
+# bundled wheels: fetched by tools/fetch_libs.py, shipped only in release zips
+libs/*/
+!libs/.gitkeep
+__pycache__/
+*.pyc
+.DS_Store
+*.zip
+# generated plates (built on demand inside Cinema 4D)
+plates/library/_custom/
+plates/library/_mixed/
+plates/library/_built/
+plates/collections/brands/
